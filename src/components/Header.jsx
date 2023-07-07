@@ -1,9 +1,10 @@
 import Button from "./Button";
+import logoDark from "../assets/logo-dark.svg";
 
 const Header = () => {
   return (
     <header>
-      <p>skilled</p>
+      <img src={logoDark} alt="skilled logo" />
       <Button color={"#13183f"} />
     </header>
   );

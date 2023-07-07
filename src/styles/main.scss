@@ -28,9 +28,41 @@ $accent: #f74780;
 
 $inspect: solid red 1px;
 
-// Styles
+//-- Main Styles
+
 body {
   font-family: $font;
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
   // background: $background;
+}
+main {
+  border: $inspect;
+  min-width: 1100px;
+  width: 1440px;
+}
+
+//-- Header styles
+
+header {
+  padding: 24px 0;
+}
+
+//-- Button styles
+button {
+  width: 167px;
+  height: 56px;
+  border-radius: 28px;
+  font-family: $font;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: white;
+  text-transform: capitalize;
+  border: none;
+  cursor: pointer;
+  transition: 250ms ease;
+}
+button:hover {
+  opacity: 0.5;
 }

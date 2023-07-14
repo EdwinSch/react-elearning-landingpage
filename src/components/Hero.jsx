@@ -15,6 +15,9 @@ const Hero = () => {
         </p>
         <Button color={"linear-gradient(0deg, #f02aa6, #ff6f48)"} />
       </div>
+      <div className="hero-image">
+        <figure>{/* CSS dynamic */}</figure>
+      </div>
     </section>
   );
 };

@@ -1,7 +1,12 @@
+import { usps } from "../data";
+import Tile from "./Tile";
+
 const Grid = () => {
   return (
     <section className="grid-container">
-      <h2>hello</h2>
+      {usps.map((usp) => {
+        return <Tile key={usp.id} {...usp} />;
+      })}
     </section>
   );
 };

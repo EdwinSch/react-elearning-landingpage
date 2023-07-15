@@ -42,8 +42,8 @@ body {
 }
 main {
   border: $inspect;
-  width: 1440px;
-  min-width: 1100px;
+  // width: 1440px;
+  width: 1110px;
 }
 
 button {
@@ -81,28 +81,16 @@ header {
 
 //-- Hero styles
 .hero {
-  border: $inspect;
-  display: flex;
+  margin-top: 180px;
+  margin-bottom: 240px;
 
-  .hero-content {
-    width: 50%;
-
-    .text {
-      margin-top: 29px;
-      margin-bottom: 40px;
-      font-size: 1.125rem;
-      font-weight: 500;
-      line-height: 28px;
-      color: $text;
-    }
-  }
-
-  .hero-image {
-    width: 50%;
-
-    figure {
-      background-image: url();
-    }
+  .text {
+    margin-top: 29px;
+    margin-bottom: 40px;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 28px;
+    color: $text;
   }
 }
 
@@ -112,7 +100,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-
+  // margin-top: 100px;
   margin-bottom: 140px;
 
   .tile {

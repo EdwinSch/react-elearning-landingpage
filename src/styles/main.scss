@@ -113,6 +113,8 @@ header {
   flex-wrap: wrap;
   gap: 30px;
 
+  margin-bottom: 140px;
+
   .tile {
     // border: $inspect;
     position: relative;
@@ -164,4 +166,14 @@ header {
     font-size: 2rem;
     font-weight: 800;
   }
+}
+
+//-- Footer styles
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  width: 100%;
+  background: $DarkBlue;
 }

@@ -37,8 +37,8 @@ body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
+  background: linear-gradient(180deg, #fff 0%, #f0f1ff 100%);
   // border: $inspect;
-  // background: $background;
 }
 main {
   border: $inspect;
@@ -114,15 +114,22 @@ header {
   gap: 30px;
 
   .tile {
-    border: $inspect;
+    // border: $inspect;
+    position: relative;
+    background: white;
     padding: 0 32px;
-
     padding-top: 64px;
     width: 350px;
     height: 322px;
     border-radius: 15px;
     box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
 
+    img {
+      position: absolute;
+      top: -22px;
+      width: 56px;
+      height: 56px;
+    }
     h2 {
       margin-bottom: 24px;
       font-size: 1.5rem;
@@ -130,5 +137,31 @@ header {
       font-weight: 800;
       text-transform: capitalize;
     }
+    p {
+      font-size: 1.125rem;
+      color: text;
+      font-weight: 500;
+      line-height: 28px;
+    }
+    .link {
+      position: absolute;
+      bottom: 40px;
+      font-size: 1.125rem;
+      color: $accent;
+      font-weight: 700;
+      text-transform: capitalize;
+      cursor: pointer;
+      transition: 250ms ease;
+    }
+    .link:hover {
+      opacity: 0.5;
+    }
+  }
+
+  .first-tile {
+    background: $gradientPrim;
+    color: white;
+    font-size: 2rem;
+    font-weight: 800;
   }
 }

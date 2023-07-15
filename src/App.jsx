@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <main>
-        <figure className="hero-img"></figure>
+        <figure className="hero-img">{/* CSS dynamic */}</figure>
         <Header />
         <Hero />
         <Grid />

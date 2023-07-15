@@ -7,6 +7,7 @@ function App() {
   return (
     <>
       <main>
+        <figure className="hero-img"></figure>
         <Header />
         <Hero />
         <Grid />

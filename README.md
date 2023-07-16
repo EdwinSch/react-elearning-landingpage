@@ -1,9 +1,11 @@
 ## E-learning landing page (React)
 
-A small React project for a (mock) e-learning company. Showcasing: re-usable (UI) components, grid usage and dynmamic styling.
+A small React project for a (mock) e-learning company. Showcasing: re-usable (UI) components, mapping functions grid usage and dynmamic styling.
 
-### Sub-Header
+### 🛠️ Built With:
 
-Text
+- React
+- SASS
+- Vite
 
-🚀 [Some link here](https://)
+🚀 [Deployed App](https://whimsical-choux-c25864.netlify.app/)

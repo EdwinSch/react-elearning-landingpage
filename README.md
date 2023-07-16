@@ -1,6 +1,6 @@
-## Header
+## E-learning landing page (React)
 
-Text
+A small React project for a (mock) e-learning company. Showcasing: re-usable (UI) components, grid usage and dynmamic styling.
 
 ### Sub-Header
 
